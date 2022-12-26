@@ -6,6 +6,7 @@
 ![[Pasted image 20221225071016.png]]
 
 수정 후
+![](https://i.imgur.com/LOuTEO1.jpg)
 
 # Directory Structure
 
