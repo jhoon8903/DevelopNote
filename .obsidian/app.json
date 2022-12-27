@@ -3,5 +3,6 @@
   "spellcheck": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "addedit",
-  "newFileLocation": "root"
+  "newFileLocation": "root",
+  "promptDelete": false
 }
