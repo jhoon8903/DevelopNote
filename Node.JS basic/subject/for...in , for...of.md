@@ -5,6 +5,9 @@
 	for ... in 반복문은 object의 속성들을 반복하여 작업을 수행할 수 있는 문법
 	모든 object에서 사용이 가능하다.
 	즉, 객체 (이하 obj)의 자료들을 하나씩 꺼내고 싶을때 사용을 하게 되는 것
+	물론 for 문보다 간단하다.
+	prototype에도 접근이 가능하다.
+	
 ## for ... of (ES6)
 	
 	1. 배열의 반복 : for 문을 사용하는 것 보다 빠르게 코드를 작성 할 수 있으며 가독성이 좋다.
@@ -21,4 +24,11 @@
    ![](https://i.imgur.com/6Vn9p8W.png)
 ![](https://i.imgur.com/NXMEDSE.png)
 
-이외에도 객체반복, DOM Collections 
+이외에도 객체반복, DOM Collections 반복 등이 가능하며, 
+가끔 for 보다 느릴때도 있다고 하지만 그것을 상쇄할 만한 장점이 많다.
+
+정리해보자면
+1. 심플 - 일반적 for 문 보다 간단한게 코드구현이 가능하다.
+2. 범용적 - Arrays, string, map, sets, DOM collection 등 을 반복문을 쓸 수 있다.
+3. object 이지만 arrays와 비슷한 녀석들은 사용이 가능하다.
+4. 구조분해가 가능하다.
