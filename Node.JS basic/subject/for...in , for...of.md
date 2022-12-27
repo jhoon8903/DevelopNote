@@ -10,21 +10,21 @@
 	
 ## for ... of (ES6)
 	
-	1. 배열의 반복 : for 문을 사용하는 것 보다 빠르게 코드를 작성 할 수 있으며 가독성이 좋다.
+#### 1. 배열의 반복 : for 문을 사용하는 것 보다 빠르게 코드를 작성 할 수 있으며 가독성이 좋다.
 ![+grid|400](https://i.imgur.com/BTLmVGT.png)
-2. index와 item에 모두 접근 가능 (구조분해에 용이함)
+#### 2. index와 item에 모두 접근 가능 (구조분해에 용이함)
 ![+grid|300](https://i.imgur.com/015NYot.png)
-3. Array 와 같은 반복
+#### 3. Array 와 같은 반복
    ![400](https://i.imgur.com/L9V7hyg.png)
 
-4. 문자열 문자반복
+#### 4. 문자열 문자반복
    ![400](https://i.imgur.com/U4Qc13q.png)
 
-5. Map 및 Set 반복 가능
+#### 5. Map 및 Set 반복 가능
    ![](https://i.imgur.com/6Vn9p8W.png)
 ![](https://i.imgur.com/NXMEDSE.png)
 
-이외에도 객체반복, DOM Collections 반복 등이 가능하며, 
+#### 이외에도 객체반복, DOM Collections 반복 등이 가능하며, 
 가끔 for 보다 느릴때도 있다고 하지만 그것을 상쇄할 만한 장점이 많다.
 
 정리해보자면
