@@ -18,3 +18,7 @@ Value 값까지 다 보려면 다음과 같이 obj[key] 를 입력해보자
 ![](https://i.imgur.com/VeEwc8X.png)
 - 'key'타입이 강제로 'String' 으로 변경된다.
 - 'key'값만 가져올 수 있음
+- enumerable 한 것들만 사용가능
+	- enumerable : 셀 수 있는 
+
+## for ... of (ES6)
