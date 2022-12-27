@@ -15,5 +15,10 @@
    ![400](https://i.imgur.com/L9V7hyg.png)
 
 4. 문자열 문자반복
-   
-5. 
+   ![400](https://i.imgur.com/U4Qc13q.png)
+
+5. Map 및 Set 반복 가능
+   ![](https://i.imgur.com/6Vn9p8W.png)
+![](https://i.imgur.com/NXMEDSE.png)
+
+이외에도 객체반복, DOM Collections 
