@@ -4,7 +4,7 @@
 			1. Module은 하나의 md에서 다른 md를호출하여 사용가능
 			2. Md은 그 자체로 하나의 프로그램이면서 다른 부픔으로도 사용 가능
 			3. 보통 1개 파일이 1 MD
-[![[Pasted image 20221224190619.png]]
+<img src = 'https://user-images.githubusercontent.com/114923190/209467650-8400e1a4-58e1-414e-974d-9c103da1b643.png' width = '500'>
 
 ### Module은 왜 필요한가.
 			1. Code base를 분리할 수 있으며, 이를통해 코드를 구조적으로 관리할 수 있음
@@ -18,7 +18,7 @@
 #### ECMA Script Module (ESM)
 	- 모든 JS환경에서 통합적인 인터페이스를 제공하기 위해 시작된 체계
 	- CJS와는 다르게 정적 모듈을 가져오면서 비동기적 로딩과 순환종속을 처리함
-[![[Pasted image 20221224191835.png]]
+<img src = 'https://user-images.githubusercontent.com/114923190/209467664-63c376d8-0466-45ef-aa84-7883b9077144.png' width = '500'>
 
 ### Module 사용법
 	- export 명령어를 변수 / 함수 앞에 붙이면 외부 모듈에서 해당 변수 / 함수에 접근 가능해짐

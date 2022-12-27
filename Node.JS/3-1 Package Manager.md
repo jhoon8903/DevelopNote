@@ -10,10 +10,10 @@
 ### Package.json
 	- 설치한 패키지의 버전관리를 위해 사용하는 파일
 	- 프로젝트명 / 작성자 / 라이센스 정보 등 다양한 meta data를 기록할 수 있음
-[![[Pasted image 20221224174828.png|500]]
+<img src = 'https://user-images.githubusercontent.com/114923190/209467593-243ca2c4-cb76-4d37-95b5-1412175b0841.png' width = '500'>
 
 ### Package-lock.json
 	- node_modules에 들어있는 패키지들의 버전과 의존관계등 상세한 기록의 파일
 	- npm으로 패키지를 설치, 수정, 삭제 할 때마다 의존관계를 기록함
 	- 배포시에 같이 배포하지 않도록 주의가 필요 (보안!)
-[![[Pasted image 20221224175059.png]]
+<img src = 'https://user-images.githubusercontent.com/114923190/209467604-f8dc63c6-0cd4-4f8d-bdba-548b1d5d6510.png' width = '500'>

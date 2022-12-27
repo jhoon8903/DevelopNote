@@ -14,4 +14,4 @@
 #### 미들웨어 (Middleware)
 	웹 서버에서 요청을 받을때 모든 요청에 대한 공통적 처리시
 	Middleware는 req/res 공통적 관리가 가능하게 함
-[![[Pasted image 20221224191313.png]]
+<img src = 'https://user-images.githubusercontent.com/114923190/209467635-bc6f3a3e-6af0-4e04-9c44-a22f2a8ccf51.png' width = '500'>

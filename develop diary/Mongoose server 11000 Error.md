@@ -5,9 +5,6 @@
 	Code 11000
 	keyPattern : { postId: 1 }
 	keyValue : {postId : null} 
-
-^57b656
-
 - 메세지 해석 : 서버에 중복된 값(postId : 1)이 있어 해당 요청을 받을 수 없고, keyValue 값이 비어있다.
 
 처음 postId 라는 변수를 넣고 개발을 진행하던 중 동료의 피드백으로 해당 변수가 필요가 없다는
@@ -43,6 +40,4 @@ require 설정에서 필수인 항목이 들어오지 않으 에러를 호출한
 ![](https://i.imgur.com/e2KS6Du.png)
 
 아니 그런데 ,,,, content 는 왜 안들어가냐....
-
-
 
