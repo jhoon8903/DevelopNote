@@ -31,4 +31,15 @@ URN : 자원의 이름
 
 ## URL (Uniform Resource Locator) 파일 식별자
 	- 네트워크 상에서 자원이 어디 있는지 위치를 알려주기 위한 규약
-	- Computer 와 Network 
+	- Computer Network와 검색 메커니즘에서의 위치를 지정하는, Web Resource에 대한 참조
+	- 웹 사이트의 주소 뿐만 아니라, Computer Network상의 모든 자원을 나타내는 표기법
+	- 해당 주소에 접속하려면, URL에 맞틑 Protocol (http / sftp / smp... 등등등)을
+	  알아야하고, 그와 동일한 Protocol로 접속해야한다.
+
+## URN (Uniform Resource Name) 통합 자원이름
+	- urn:scheme을 사용하는 URI를 위한 역사적 이름
+	- URL이 위치를 지정한다면, URN은 Resource에 이름을 부여하는 것
+	- URN은 영속적이며 위치에 도릭접인 자원을 위한 지시자로 사용하기 위해서 
+	    1997년 RFC 2141 문서서 정의됨.
+	- Resource가 Name에 Mapping 되어 있어야 하기에 거의 찾기가 힘들다.
+	   그래서 대부분 URL을 사용
