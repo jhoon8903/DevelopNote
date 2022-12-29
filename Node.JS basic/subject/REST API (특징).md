@@ -46,8 +46,8 @@ URI를 통해 자원을 표시하고, HTTP Method를 이용하여 해당 자원�
 		- 리소스명은 동사보다 명사를 사용한다.
 
 2. 리소스에 대한 행위는 HTTP Method로 표현한다.
-		Method [ Create / Read / Update / Delete / HEAD / OPTIONS / ]  통칭 'CRUD'
-		[[HTTP Method]]
+		Method [ Create / Read / Update / Delete / HEAD / OPTIONS / CONNECT / TARCE]  
+		method 에 대한 설명 [[HTTP Method]]
 
 3. ( / ) 구분자는 계층 관계를 내포
 
@@ -78,3 +78,6 @@ URI를 통해 자원을 표시하고, HTTP Method를 이용하여 해당 자원�
 				+ + Accept header
 						- 브라우저에서 웹서버로 req message 에 담기는 header
 						- 브라우져가 req message의 Accept header값을 application/json이라고 설정하였다면 = '나는 json 데이터만 처리할 수 있으니 json 데이터 형식으로 응담을 돌려줘 ' 라는 것과 같음
+
+
+URI 설계 개념
