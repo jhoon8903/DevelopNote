@@ -46,5 +46,18 @@ URI를 통해 자원을 표시하고, HTTP Method를 이용하여 해당 자원�
 		- 리소스명은 동사보다 명사를 사용한다.
 
 2. 리소스에 대한 행위는 HTTP Method로 표현한다.
-		Method 
-			- 
+		Method [ Create / Read / Update / Delete ]  통칭 'CRUD'
+			- POST : 리소스의 입력
+			- GET : 리소스의 출력
+			- PUT / PATCH : 리소스의 수정  (PUT은 전체수정) / (PATCH는 일부수정) 
+			- DELETE : 리소스의 삭제
+
+3. ( / ) 구분자는 계층 관계를 내포
+4. URI의 마지막 문자로 ( / )를 포함하지 않는다.
+5. ( - )은 URI의 가독성을 높이는데 사용 할 수 있다.
+6. ( _ )는 URI에 사용하지 않는다.
+7. URI 경로는 소문자를 사용한다,
+		- RFC3986(URI 문법 형식)은 schema 와 Host를 제외하고는 upper와 lower를 
+	  구별하도록 규정
+8. 파일확장자는 URI에 포함시키지 아니한다.\
+		- 
