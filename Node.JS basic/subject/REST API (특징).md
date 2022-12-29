@@ -46,19 +46,22 @@ URI를 통해 자원을 표시하고, HTTP Method를 이용하여 해당 자원�
 		- 리소스명은 동사보다 명사를 사용한다.
 
 2. 리소스에 대한 행위는 HTTP Method로 표현한다.
-		Method [ Create / Read / Update / Delete ]  통칭 'CRUD'
-			- POST : 리소스의 입력
-			- GET : 리소스의 출력
-			- PUT / PATCH : 리소스의 수정  (PUT은 전체수정) / (PATCH는 일부수정) 
-			- DELETE : 리소스의 삭제
+		Method [ Create / Read / Update / Delete / HEAD / OPTIONS / ]  통칭 'CRUD'
+		[[HTTP Method]]
 
 3. ( / ) 구분자는 계층 관계를 내포
+
 4. URI의 마지막 문자로 ( / )를 포함하지 않는다.
+
 5. ( - )은 URI의 가독성을 높이는데 사용 할 수 있다.
+
 6. ( _ )는 URI에 사용하지 않는다.
+
 7. URI 경로는 소문자를 사용한다,
 		- RFC3986(URI 문법 형식)은 schema 와 Host를 제외하고는 upper와 lower를 
 	  구별하도록 규정
+			  + IETF 에서 2005년에 발표된 'Uniform Resource Identifier (URI): Generic Syntax' 협약 규정  [[https://www.rfc-editor.org/rfc/rfc3986]]
+			  
 8. 파일확장자는 URI에 포함시키지 아니한다.
 		- 대신 Accept header를 사용.
 			+ HTTP header
@@ -71,5 +74,7 @@ URI를 통해 자원을 표시하고, HTTP Method를 이용하여 해당 자원�
 						-  Content - Type는 POST / PUT 처럼 req.body에 실어 보내는 경우에 중요
 			      <form> tag를 통해 첨부파일 전송의 경우라면 브라우저가 자동으로 
 						      > multipart/form-data로 설정하여 req message를 보냄   
+				
 				+ + Accept header
-			  
+						- 브라우저에서 웹서버로 req message 에 담기는 header
+						- 브라우져가 req message의 Accept header값을 application/json이라고 설정하였다면 = '나는 json 데이터만 처리할 수 있으니 json 데이터 형식으로 응담을 돌려줘 ' 라는 것과 같음
