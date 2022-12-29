@@ -59,5 +59,17 @@ URI를 통해 자원을 표시하고, HTTP Method를 이용하여 해당 자원�
 7. URI 경로는 소문자를 사용한다,
 		- RFC3986(URI 문법 형식)은 schema 와 Host를 제외하고는 upper와 lower를 
 	  구별하도록 규정
-8. 파일확장자는 URI에 포함시키지 아니한다.\
-		- 
+8. 파일확장자는 URI에 포함시키지 아니한다.
+		- 대신 Accept header를 사용.
+			+ HTTP header
+				+ + Content-Type header
+						-  HTTP 메시지(req,res)에 담겨 보내는 데이터의 형식을 알려주는 헤더
+						-  대부분의 브라우져 및 웹은 Content-Type header를 기준으로 메세지에 담긴
+			     데이터를 분석하고, 파싱함
+					    -  HTTP req의 GET방식인 경우 무조건 URL 끝에 query string 으로 
+			     key = value 로 날아가기 때문에 Content-Type header가 필요 없음
+						-  Content - Type는 POST / PUT 처럼 req.body에 실어 보내는 경우에 중요
+			      <form> tag를 통해 첨부파일 전송의 경우라면 브라우저가 자동으로 
+						      > multipart/form-data로 설정하여 req message를 보냄   
+				+ + Accept header
+			  
