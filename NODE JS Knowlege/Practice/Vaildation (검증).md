@@ -18,3 +18,19 @@ todoId 라는 가상의(virtual) Column을 보여준다
 
 
 deleteOne(todoId) 
+
+router.delete('/todos/:_id', async (req, res) => {
+
+const { _id } = req.params;
+
+const deleteTodo = await Todo.deleteOne({ _id })
+
+.exec()
+
+.then(res.status(201).json('삭제되었습니다.'))
+
+.catch(res.status(400).json('없는 아이디 입니다.'));
+
+});
+
+
