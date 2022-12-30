@@ -61,3 +61,6 @@ res
 .json({ starus: `${done}`, message: '할 일을 되돌렸습니다,' });
 
 }
+
+
+mysql 접속 에러
