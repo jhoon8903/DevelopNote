@@ -15,3 +15,6 @@ mongoose  'Schema.virtual' ?
 JSON Type로 mongoose에서 보았을 때
 todoId 라는 가상의(virtual) Column을 보여준다 
 ![](https://i.imgur.com/W3t6zdq.png)
+
+
+deleteOne(todoId) 
