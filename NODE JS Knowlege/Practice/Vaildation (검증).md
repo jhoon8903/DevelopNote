@@ -34,3 +34,30 @@ const deleteTodo = await Todo.deleteOne({ _id })
 });
 
 
+
+ //////////// 체크박스
+if (done) {
+
+const doneAt = new Date();
+
+doneAt.setHours(doneAt.getHours() + 9);
+
+currentTodo.doneAt = doneAt;
+
+await currentTodo.save();
+
+res.status(201).json({ status: `${done}`, message: '완료하였습니다.' });
+
+} else {
+
+currentTodo.doneAt = null;
+
+await currentTodo.save();
+
+res
+
+.status(201)
+
+.json({ starus: `${done}`, message: '할 일을 되돌렸습니다,' });
+
+}
