@@ -22,16 +22,15 @@ Execl sheet 를 생각하면 편하다.
 ### Where 절
 	- 특정 table안의 특정 data 조회
 	- 텍스트상 구분 짓기위해 ( ) 표시 실제로는 ( )는 기입하지 않음
+- SELECT * from (tableName) where (fieldName) = 'data'
+	*data는 ' '  꼭 문자열로 표기* 
 
-select * from (tableName) where (fieldName) = 'data'
+UP / DOWN ( data 가 ... Number 이상 혹은 ... 이하 )
+- SELECT * from (tableName) where (field Name) >= Number
+- SELECT * from (tableName) where (field Name) <= Number
 
-#### UP / DOWN
-field 가 ... 이상 혹은 ... 이하
-select * from (field Name(_id_)) where (field Name) > ... || < ...
-
-
-#### and / or
-value1 이면서 value2 인 자료 
-select * from (table Name) where (field name1) = 'value1' [and / or] (field Name2) = 'value2'
+AND / OR (data1 이면서 data2인 )
+- SELECT * from (table Name) where (field name1) = 'data1' and (field Name2) = 'data2'
+- SELECT * from (table Name) where (field name1) = 'data1' or (field Name2) = 'data2'
 
 
