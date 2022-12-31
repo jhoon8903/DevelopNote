@@ -33,5 +33,6 @@ AND / OR (data1 이면서 data2인 )
 - SELECT * from (table Name) where (field name1) = 'data1' and (field Name2) = 'data2'
 - SELECT * from (table Name) where (field name1) = 'data1' or (field Name2) = 'data2'
 
-## Wh
+### Where 와 같이 쓰이는
+ 
 
