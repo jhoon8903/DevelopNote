@@ -7,7 +7,13 @@ Execl sheet 를 생각하면 편하다.
 
 ![](https://i.imgur.com/hiOvjxA.png)
 
+## 기초 문법 SELECT 문법
 
+특정 Table안의 모든 Field 및 Data 조회
+ - SELECT * from tableName
+
+특정 Table안의 특정 Field 의 Data 조회
+- SELECT  form 
 
 
 Where 절
