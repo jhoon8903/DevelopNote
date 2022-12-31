@@ -3,6 +3,10 @@ Select Query 문
 *어떤 Table에서 어떤  Field 의 data를 가져올지 *로 구성 됨
 
 구성 
+Execl sheet 를 생각하면 편하다.
+
+![](https://i.imgur.com/hiOvjxA.png)
+
 
 
 
