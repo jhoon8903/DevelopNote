@@ -7,19 +7,23 @@ Execl sheet 를 생각하면 편하다.
 
 ![](https://i.imgur.com/hiOvjxA.png)
 
-## 기초 문법 SELECT 문법
+# 기초 문법
 
-특정 Table안의 모든 Field 및 Data 조회
+## SELECT 문
+	- 기본적인 data 조회할 때 사용
+
+특정 Table안의 모든 Field 조회
  - SELECT * from tableName
 
-특정 Table안의 특정 Field 의 Data 조회
-- SELECT  form 
+특정 Table안의 특정 Field 조회
+- SELECT  fieldName form  tableName
+- SELECT fieldName1 , fieldName2 from tableName
 
+### Where 절
+	- 특정 table안의 특정 data 조회
+	- 텍스트상 구분 짓기위해 ( ) 표시 실제로는 ( )는 기입하지 않음
 
-Where 절
-텍스트상 구분 짓기위해 ( ) 표시 실제로는 ( )는 기입하지 않음
-
-select * from (table Name) where query(field name) = 'value'
+select * from (tableName) where (fieldName) = 'data'
 
 #### UP / DOWN
 field 가 ... 이상 혹은 ... 이하
