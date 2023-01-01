@@ -75,7 +75,20 @@ AND / OR (data1 이면서 data2인 )
 
 ## LIMIT 문
 - 큰 테이블을 조회할 때 효율적으로 최대 데이터 수를 조절 가능
+- SELECT fieldName FROM tableName
+  LIMIT number (number의 수만큼 data 표현)
 
 ## DISTINCT 문
 - 중복을 제거하여 각 테이블에 해당하는 field의 Data를 효율적으로 조회 가능
-- SELECT DISTINCT ()
+- SELECT DISTINCT (fieldName) FROM tableName
+
+## COUNT 문
+- data 의 총 수를 count
+- SELECT count( * ) FROM tableName WHERE fieldName = 'data'
+
+### DISTINCT && COUNT
+- SELECT COUNT( DISTINCT ( fieldName ) ) FROM tableName
+ ex.  name field에서 총 몇개의 성씨가 존재할까
+![](https://i.imgur.com/6222wMc.png)
+
+![](https://i.imgur.com/1ikDicq.png)
