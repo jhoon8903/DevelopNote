@@ -28,3 +28,23 @@ GROUP BY name 후
 
 전체 성씨 중 '남' 씨의 숫자를 알고 싶을 때
 ![](https://i.imgur.com/EFXWcMr.png)
+
+
+## GROUP BY 가지고 놀기
+#### MIN (최소값)
+- SELECT week, min(likes)FROM checkins group by week
+- week의 likes 의 최소값![](https://i.imgur.com/5IwFwJs.png)
+  
+#### MAX (최대값)
+  - SELECT week, max(likes)FROM checkins group by week
+  - week의 likes의 최대값![](https://i.imgur.com/J3BlwmD.png)
+
+#### AVG (평균값)
+- SELECT week, avg(likes)FROM checkins group by week
+- week의 likes의 평균값 ![](https://i.imgur.com/7E9MdcU.png)
+- 평균의 자릿수 반올림 ROUND(avg(filed), 자릿수) 
+![](https://i.imgur.com/UbyKmfP.png)
+
+![](https://i.imgur.com/S87Xrna.png)
+
+![](https://i.imgur.com/14rPi6I.png)
