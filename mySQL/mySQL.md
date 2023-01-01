@@ -33,6 +33,10 @@ AND / OR (data1 이면서 data2인 )
 - SELECT * from (table Name) where (field name1) = 'data1' and (field Name2) = 'data2'
 - SELECT * from (table Name) where (field name1) = 'data1' or (field Name2) = 'data2'
 
-### Where 와 같이 쓰이는
- 
+### Where 와 같이 쓰이는 
 
+같지 않음( != ) 
+- SELECT * from tableName where fieldName != 'data1' 
+	  - data1 이 아닌 data만 출력
+
+범위 (between)
