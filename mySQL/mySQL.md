@@ -69,3 +69,4 @@ AND / OR (data1 이면서 data2인 )
 ![](https://i.imgur.com/m9aDU8K.png)
 
 4. 이메일이 s로 시작하고 com으로 끝나면서 성이 '이'씨인 유저만 추출해보기
+![](https://i.imgur.com/Y2I4xo5.png)
