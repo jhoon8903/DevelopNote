@@ -26,3 +26,5 @@ GROUP BY name 후
 	   -  name의 수량을 COUNT 해준다.
 ![](https://i.imgur.com/Py3eSjd.png)
 
+전체 성씨 중 '남' 씨의 숫자를 알고 싶을 때
+![](https://i.imgur.com/EFXWcMr.png)
