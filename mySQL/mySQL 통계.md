@@ -5,3 +5,15 @@
 순서 (한번에 하면 좋지만 왜 이렇게 되는지 알아야 한다.)
 1. SELECT * FROM users
 	   - users Table 에서 전체 목록 추출
+	   ![](https://i.imgur.com/rHF258c.png)
+
+2. SELECT * FROM users GROUP BY  name
+	   - users Table 의 name Field 를  GROUP으로 묶는다.
+	   - group 으로 묶으면서 중복된 성씨를 제외한 각 항목을 볼 수 있다.
+	   => GROUP name 이후 목록이 498개에서 54개로 줄어들게된다.
+	   GROUP BY name 전
+![](https://i.imgur.com/QJsv9bv.png)
+	
+
+
+3.  SELECT name FROM users GROUP BY  name
