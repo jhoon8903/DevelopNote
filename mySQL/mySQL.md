@@ -33,16 +33,25 @@ AND / OR (data1 이면서 data2인 )
 - SELECT * from (table Name) where (field name1) = 'data1' and (field Name2) = 'data2'
 - SELECT * from (table Name) where (field name1) = 'data1' or (field Name2) = 'data2'
 
-### Where 와 같이 쓰이는 
+### WHERE 와 같이 쓰이는 
 
 같지 않음( != ) 
 - SELECT * from tableName where fieldName != 'data1' 
 	  - data1 이 아닌 data만 출력
 
-범위 (between)
+범위 ( between )
 - SELECT * FROM tableName WHERE (date type) fieldName BETWEEN 
 	'date start ' and 'date end'
 	  - date start 부터 date end 까지의 'data' 조회 (date type)
 
-- SELECT * FROM tableName WHERE 
+포함 ( in )
+- SELECT * FROM tableName WHERE [(date type) fieldName: example week]
+   IN (1,3,4,5)
+		- 1, 3, 4, 5 week 의 데이터를 조회
 
+
+패턴 ( like )
+- SELECT * FROM tableName WHERE (ex.email) LIKE '%daum.net'
+		- fieldName email 에서 daum.net으로 끝나는(% 기준으로 ) data 조회
+- SELECT * FROM tableName WHERE email LIKE 'a%t'
+		- fieldName email 에서 a로 시작해 t로 끝나는 data 조회
