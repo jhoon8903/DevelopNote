@@ -8,3 +8,4 @@
 - ORDER BY fieldName : 오름차순 (기본 ASC)
 ![](https://i.imgur.com/Blny1fC.png)
 
+- 문자열 (가나다라 순)/ 시간(빠른시간 순)도 정렬 가능
