@@ -89,6 +89,7 @@ AND / OR (data1 이면서 data2인 )
 ### DISTINCT && COUNT
 - SELECT COUNT( DISTINCT ( fieldName ) ) FROM tableName
  ex.  name field에서 총 몇개의 성씨가 존재할까
+ 
 ![](https://i.imgur.com/6222wMc.png)
 
 ![](https://i.imgur.com/1ikDicq.png)
