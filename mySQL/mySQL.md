@@ -55,3 +55,17 @@ AND / OR (data1 이면서 data2인 )
 		- fieldName email 에서 daum.net으로 끝나는(% 기준으로 ) data 조회
 - SELECT * FROM tableName WHERE email LIKE 'a%t'
 		- fieldName email 에서 a로 시작해 t로 끝나는 data 조회
+
+예제 (sparta database 기준)
+1. 결제수단이 CARD가 아닌 주문 데이터만 추출
+![](https://i.imgur.com/RDTXGa3.png)
+
+
+2. 20000 ~ 30000 포인트 보유하고 있는 유저만 추출해보기
+![](https://i.imgur.com/5lyZ9TR.png)
+
+
+3. 이메일이 s로 시작하고 com으로 끝나는 유저만 추출해보기
+![](https://i.imgur.com/m9aDU8K.png)
+
+4. 이메일이 s로 시작하고 com으로 끝나면서 성이 '이'씨인 유저만 추출해보기
