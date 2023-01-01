@@ -40,3 +40,7 @@ AND / OR (data1 이면서 data2인 )
 	  - data1 이 아닌 data만 출력
 
 범위 (between)
+- SELECT * FROM tableName WHERE 'time type fieldName' BETWEEN 
+	'date start ' and 'date end'
+	  - date start 부터 date end 까지의 'data' 조회
+
