@@ -17,3 +17,7 @@ III.  Gamil 유저중 2020/07/12 ~ 13에 입력된 data의 Count 하기
 
 
 IV. naver eamil 을 사용하면서 웹개발 종합반을 신청하고, 결제는 kakaopay로 이루어진 데이터
+- SELECT * FROM orders WHERE email like '%naver.com' and course_title 
+   LIKE '웹개발 종합반' and payment_method LIKE 'kakaopay'
+   
+![](https://i.imgur.com/cChJC2g.png)
