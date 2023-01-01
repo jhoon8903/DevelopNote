@@ -17,4 +17,14 @@
 	ORDER BY COUNT(name) DESC
    ![](https://i.imgur.com/d86H377.png)
 
-3. COURSE_ID 별 '오늘의 다짐'에 달린 like 갯수 
+3. COURSE_ID 별 '오늘의 다짐'에 달린 평균like 갯수 
+		SELECT course_id ,round(avg(likes),0) FROM checkins
+		GROUP BY  course_id
+![](https://i.imgur.com/j3vAlJK.png)
+
+
+## 쿼리 작성 요령
+1) show tables로 어떤 테이블이 있는지 살펴보기 
+2) 제일 원하는 정보가 있을 것 같은 테이블에 select * from 테이블명 limit 10 쿼리 날려보기 
+3) 원하는 정보가 없으면 다른 테이블에도 2)를 해보기 
+4) 테이블을 찾았다! 범주를 나눠서 보고싶은 필드를 찾기 5) 범주별로 통계를 보고싶은 필드를 찾기 6) SQL 쿼리 작성하기!
