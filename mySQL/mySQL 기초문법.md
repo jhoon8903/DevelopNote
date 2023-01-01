@@ -1,3 +1,4 @@
+#mySQL #백엔드 #server 
 
 Select Query 문
 *어떤 Table에서 어떤  Field 의 data를 가져올지 *로 구성 됨
@@ -70,3 +71,11 @@ AND / OR (data1 이면서 data2인 )
 
 4. 이메일이 s로 시작하고 com으로 끝나면서 성이 '이'씨인 유저만 추출해보기
 ![](https://i.imgur.com/Y2I4xo5.png)
+
+
+## LIMIT 문
+- 큰 테이블을 조회할 때 효율적으로 최대 데이터 수를 조절 가능
+
+## DISTINCT 문
+- 중복을 제거하여 각 테이블에 해당하는 field의 Data를 효율적으로 조회 가능
+- SELECT DISTINCT ()
