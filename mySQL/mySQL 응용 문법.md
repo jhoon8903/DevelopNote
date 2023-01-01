@@ -1,0 +1,8 @@
+#mySQL #백엔드 #server 
+
+## ALIAS  (별칭기능)
+
+- 쿼리가 길어짐에 따라서 햇갈릴 수 있는 tableName 에 별칭을 부여하여
+  해당 field 가 어느 table의 것 인지 알 수 있음
+  ![](https://i.imgur.com/976a01W.png)
+
