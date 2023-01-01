@@ -48,3 +48,7 @@ GROUP BY name 후
 ![](https://i.imgur.com/S87Xrna.png)
 
 ![](https://i.imgur.com/14rPi6I.png)
+
+#### SUM (합계)
+- SUM( fieldName )
+![](https://i.imgur.com/HX2S5fE.png)
