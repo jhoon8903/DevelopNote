@@ -11,9 +11,18 @@
 	   - users Table 의 name Field 를  GROUP으로 묶는다.
 	   - group 으로 묶으면서 중복된 성씨를 제외한 각 항목을 볼 수 있다.
 	   => GROUP name 이후 목록이 498개에서 54개로 줄어들게된다.
-	   GROUP BY name 전
+	   
+GROUP BY name 전
 ![](https://i.imgur.com/QJsv9bv.png)
-	
-
+			
+GROUP BY name 후
+![](https://i.imgur.com/q0zDmif.png)
 
 3.  SELECT name FROM users GROUP BY  name
+		- field에서 name만 추출한다.
+![](https://i.imgur.com/YXFkyB0.png)
+
+4. SELECT name COUNT ( * )FROM users GROUP BY  name
+	   -  name의 수량을 COUNT 해준다.
+![](https://i.imgur.com/Py3eSjd.png)
+
