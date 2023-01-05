@@ -20,7 +20,7 @@
 - 생산성 향상 및 유지보수가 용이
 - 특정 DBMS에 종속적이지 않아 객체에만 집중 가능 
   (참고.[[객체지향 ( Object oriented ) VS 절차지향( Procedural )]])
-	  - 다른 DBMS간에도 문법이 호환되어 교체시에 편리
+- 다른 DBMS간에도 문법이 호환되어 교체시에 편리
 
 ### 단점
 - Customizing 및 Debugging이 어려움
