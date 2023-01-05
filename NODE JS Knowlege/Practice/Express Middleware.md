@@ -62,3 +62,4 @@ express.static(root,('option'))
 
 # Middleware 구동
 
+![](https://i.imgur.com/0FQEQuL.png)
