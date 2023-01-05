@@ -43,4 +43,13 @@ app.use(function(err, req, res, next) {
 express.static(root,('option'))
 ```
 - 대표적 basic middleware
-		- cookie-parser
+		- cookie-parser / body-parser
+#### option
+- dotfiles : dotfile을 제공하기 위한 옵션 [allow, deny, ignore(default) ]
+- etag : etag의 생성 설정 [true(default) . false]
+- extensions : 파일확장자 설정 [array, 'index.html(default)']
+- index : 인덱스 파일전송 [true(default) , false]
+- lastModified : 파일이 마지막 수정된 날짜를 헤더에 설정 [true(default) , false]
+- maxAge : milesecond 또는 ms형식의 문자열 Cache-Control의 특성을 설정 [ 0 (default) ]
+- redirect
+- setHeaders
