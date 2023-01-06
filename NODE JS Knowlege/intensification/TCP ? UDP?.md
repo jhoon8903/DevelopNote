@@ -9,6 +9,7 @@ https://better-together.tistory.com/140
 	- Data의 순서가 뒤바뀌는 일이 없어 신뢰가 가능
 	- UDP에 비해 송수신 Cost가 큼
 	- UDP에 비해 전송 속도가 느림
+	✓ 이메일 , 파일전송드에 사용
 
 # UDP ( User Datagram Protocol )
 	- 비연결성 단방향 통신 Protocol
@@ -16,4 +17,4 @@ https://better-together.tistory.com/140
 	- Inititor가 순차적으로 Data를 보내도 Reciver는 다른 순서로 전달 받을 수 있음
 	- Data를 보내기만 하고 별도의 처리가 없어 TCP에 비해 Cost 발생이적음
 	- TCP 보다 전송속도가 빠름
-	
+	✓ DNS, IPTV, VoIP, TFTP, IP터널 , 온라인 게임등에서 사용
