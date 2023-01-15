@@ -11,3 +11,6 @@ HTTP 헤더를 사용하여, ' 한 출처 (SOR)'에서 실행 중인 웹 어플�
 [이미지 출처 : MDN]
 교차 출처 요처의 예시 :  `https://domain-a.com`의 프론트 엔드 JavaScript 코드가 [`XMLHttpRequest`](https://developer.mozilla.org/ko/docs/Web/API/XMLHttpRequest)를 사용하여 `https://domain-b.com/data.json`을 요청하는 경우.
 
+![](https://i.imgur.com/ZgGA91U.png)
+
+보안
