@@ -65,4 +65,4 @@ URL 구성요소 중 Protocol(Schema), Host, Port 가 동일하면 같은 출처
 ![](https://i.imgur.com/jTxRTN6.png)
 
 2. Server는 response header에 Access-Control-Allow-Origin을 담아 클라이어트로 전달
-	1. 
+	1. ' 이 리소스를 접근하는 것이 허용된 출처'
