@@ -40,4 +40,12 @@ HTTP 헤더를 사용하여, ' 한 출처 (SOP)'에서 실행 중인 웹 어플�
 " 동일한 출처(origin)에서만 리소스를 공유할 수 있다. "
 
 SOP가 필요한 이유
-해커가 
+해커가 악의적으로 홈페이지에 접속하는 상황을 막기 위한 기본적 조치
+![](https://i.imgur.com/5ehx3cA.png)
+[`출처: inpa Dev`](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F#thankYou)
+
+동일한 출처란
+URL 구성요소 중 Protocol(Schema), Host, Port 가 동일하면 같은 출처로 인지
+![](https://i.imgur.com/DinqPKp.png)
+[`출처: inpa Dev`](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F#thankYou)
+
