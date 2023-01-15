@@ -55,3 +55,14 @@ URL 구성요소 중 Protocol(Schema), Host, Port 가 동일하면 같은 출처
 응답 데이터는 요청 받은데로 정상적으로 전달하지만 브라우져에서 해당 reponse를 
 동일출처정책으로 차단한다.
 
+*CORS는 SOP로 막혀 받아올 수 없는  response 를 받을 수 있는 방법 중 하나 SOP 정책을 위반 
+하더라도 CORS 정책을 따르면 받아 다른 출처의 리소스 허용이 가능하다*
+
+## 브라우저 CORS 기본 동작
+
+1. Client에서 HTTP 요청의 header에 Origin을 담아 전달
+	1. Origin Field에 출처를 담아 보낸다.
+![](https://i.imgur.com/jTxRTN6.png)
+
+2. Server는 response header에 Access-Control-Allow-Origin을 담아 클라이어트로 전달
+	1. 
