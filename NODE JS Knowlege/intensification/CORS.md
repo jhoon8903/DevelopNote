@@ -66,3 +66,13 @@ URL 구성요소 중 Protocol(Schema), Host, Port 가 동일하면 같은 출처
 
 2. Server는 response header에 Access-Control-Allow-Origin을 담아 클라이어트로 전달
 	1. ' 이 리소스를 접근하는 것이 허용된 출처'
+![](https://i.imgur.com/seGzNK8.png)
+
+3. 클라이언트에서 자신이 보냈던 request Origin 과 
+      === 서버가 보내준 Access-Control-Allow-Origin 을 비교한다.
+      1. 유효하지 않다면 ( !== ) CORS ERROR!
+      2. 유효하다면 ( === ) 다른출처의 리소스를 가져온다.
+![](https://i.imgur.com/IaffwCV.png)
+
+
+*서버에서 해야할 일은 이  response "Access-Control-Allow-Origin" 을 헤더에  허용할 출처를 기재해서 클라이언트에 응답을 하면 된다. *
