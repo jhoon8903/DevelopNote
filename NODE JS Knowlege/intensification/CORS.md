@@ -49,3 +49,9 @@ URL 구성요소 중 Protocol(Schema), Host, Port 가 동일하면 같은 출처
 ![](https://i.imgur.com/DinqPKp.png)
 [`출처: inpa Dev`](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F#thankYou)
 
+출처에 대한 비교는 서버가 아닌 브라우저에서 실행한다.
+![](https://i.imgur.com/tFJ3fNo.png)
+[`출처: inpa Dev`](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F#thankYou)
+응답 데이터는 요청 받은데로 정상적으로 전달하지만 브라우져에서 해당 reponse를 
+동일출처정책으로 차단한다.
+
