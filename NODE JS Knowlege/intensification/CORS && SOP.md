@@ -1,4 +1,4 @@
-#API #server #백엔드 
+#API #server #백엔드 #CORS 
 
 # 교차 출처 리소스 공유 ( CORS ) [ Cross- Origin Resource Sharing ]
 

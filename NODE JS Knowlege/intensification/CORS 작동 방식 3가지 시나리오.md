@@ -1,4 +1,4 @@
-#API #백엔드 #server #통신 #HTTP 
+#API #백엔드 #server #통신 #HTTP #CORS 
 
 # 예비요청 (Preflight Request)
 
@@ -56,6 +56,60 @@ Default : 별도의 옵션 없이 브라우저의 쿠키와 같은 인증과 관
 
 서버에 인증 요청을 담는 방법
 1. fetch 메서드 이용
-2. ajax, jQuery
+2. axios
+3. jQuery
 
 ### 1. fetch 메서드 사용
+```javascript
+// fetch 메서드
+fetch("https://example.com:1234/users/login", {
+	method: "POST",
+	credentials: "include", 
+	// 클라이언트와 서버가 통신할때 쿠키와 같은 인증 정보 값을 공유하겠다는 설정
+    body: JSON.stringify({
+        userId: 1,
+    }),
+})
+```
+
+2. axios 라이브러리
+```javascript
+// axios 라이브러리
+axios.post('https://example.com:1234/users/login', { 
+    profile: { username: username, password: password } 
+}, { 
+	withCredentials: true 
+	// 클라이언트와 서버가 통신할때 쿠키와 같은 인증 정보 값을 공유하겠다는 설정
+})
+```
+
+3. jQuery
+```javascript
+// jQuery 라이브러리
+$.ajax({
+	url: "https://example.com:1234/users/login",
+	type: "POST",
+	contentType: "application/json; charset=utf-8",
+	dataType: "json",		
+	xhrFields: { 
+    	withCredentials: true 
+    	// 클라이언트와 서버가 통신할때 쿠키와 같은 인증 정보 값을 공유하겠다는 설정
+    },
+	success: function (retval, textStatus) {
+		console.log( JSON.stringify(retval));
+	}
+});
+```
+
+
+### 2. 서버에서 인증된 요청에 대한 헤더 설정
+1. Access-Control-Allow-Credentials : true
+2. Access-Control-Allow-Origin 의 값에 와일드카드 문자("*")는 사용할 수 없다.
+3. Access-Control-Allow-Methods 의 값에 와일드카드 문자("*")는 사용할 수 없다.
+4. Access-Control-Allow-Headers 의 값에 와일드카드 문자("*")는 사용할 수 없다.
+
+![](https://i.imgur.com/WYtbQhs.png)
+[`출처: inpa Dev`](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F#thankYou)
+
+[`CORS 튜토리얼 참고`](https://chuckchoiboi.github.io/cors-tutorial/)
+
