@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "665d42794d873494",
+        "id": "d89270de15e19e8d",
         "type": "tabs",
         "children": [
           {
-            "id": "2cafa2b1ae47d471",
+            "id": "e6e6d5a4d332e319",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -130,6 +130,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:Create new canvas": false,
@@ -138,6 +139,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2cafa2b1ae47d471",
-  "lastOpenFiles": []
+  "active": "e6e6d5a4d332e319",
+  "lastOpenFiles": [
+    "비슷한그램.md",
+    "무제 파일.md",
+    "mini_Project/미니프로젝트 - 내가 그린 기린 그림 ( 회고 ).md"
+  ]
 }
