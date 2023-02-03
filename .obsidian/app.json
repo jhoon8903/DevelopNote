@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "addedit",
   "newFileLocation": "root",
-  "promptDelete": false
+  "promptDelete": false,
+  "tabSize": 2
 }

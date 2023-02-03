@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d89270de15e19e8d",
+        "id": "d7e1986d9c1503bb",
         "type": "tabs",
         "children": [
           {
-            "id": "e6e6d5a4d332e319",
+            "id": "5b0628e69f3102c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "비슷한그램.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "0dbdc2272a005366",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "비슷한그램.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "비슷한그램.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "비슷한그램.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,11 +139,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e6e6d5a4d332e319",
+  "active": "5b0628e69f3102c7",
   "lastOpenFiles": [
-    "무제 파일.md",
-    "비슷한그램.md",
-    "Excalidraw/Drawing 0125.excalidraw.md",
-    "mini_Project/미니프로젝트 - 내가 그린 기린 그림 ( 회고 ).md"
+    "이큐브랩/AWS/AWS EKS.md",
+    "이큐브랩/Dev_Ops/kubernetes/Kubernetes (k8s).md",
+    "이큐브랩/AWS/AWS EC2.md",
+    "이큐브랩/CS/로드밸런서.md",
+    "NODE JS Knowlege/subject/자원 Resource.md",
+    "이큐브랩/AWS/AWS VPC.md",
+    "이큐브랩/node/mini_Project/협업 미니 프로젝트 3(비슷한그램).md",
+    "이큐브랩/node/mini_Project/협업 미니 프로젝트 2 (내가그린기린그림 회고).md",
+    "이큐브랩/node/mini_Project/협업 미니 프로젝트 1 (내가그린기린그림).md",
+    "이큐브랩/node/mini_Project/social login.md"
   ]
 }
