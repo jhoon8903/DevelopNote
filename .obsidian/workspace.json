@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d7e1986d9c1503bb",
+        "id": "1081c770f6b6c41e",
         "type": "tabs",
         "children": [
           {
-            "id": "5b0628e69f3102c7",
+            "id": "d72c9390267ec7b8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 208.5
   },
   "right": {
     "id": "0dbdc2272a005366",
@@ -139,17 +139,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5b0628e69f3102c7",
+  "active": "d72c9390267ec7b8",
   "lastOpenFiles": [
-    "이큐브랩/AWS/AWS EKS.md",
-    "이큐브랩/Dev_Ops/kubernetes/Kubernetes (k8s).md",
-    "이큐브랩/AWS/AWS EC2.md",
-    "이큐브랩/CS/로드밸런서.md",
-    "NODE JS Knowlege/subject/자원 Resource.md",
-    "이큐브랩/AWS/AWS VPC.md",
-    "이큐브랩/node/mini_Project/협업 미니 프로젝트 3(비슷한그램).md",
-    "이큐브랩/node/mini_Project/협업 미니 프로젝트 2 (내가그린기린그림 회고).md",
-    "이큐브랩/node/mini_Project/협업 미니 프로젝트 1 (내가그린기린그림).md",
-    "이큐브랩/node/mini_Project/social login.md"
+    "이큐브랩/React/react/6. State and Lifecycle.md",
+    "이큐브랩/React/react/5. Components and Props.md",
+    "이큐브랩/React/react/4. Rendering Elements.md",
+    "이큐브랩/React/react/2. React.md",
+    "이큐브랩/React/react/3. JSX.md",
+    "mySQL/7. mySQL JOIN.md",
+    "이큐브랩/React/react/1. HTML & SPA.md",
+    "이큐브랩/Dev_Ops/Docker/2. Docker를 알아보자.md",
+    "mySQL/6. mySQL 통계 응용.md",
+    "mySQL/2. mySQL 기초문법 활용(삽질).md"
   ]
 }
