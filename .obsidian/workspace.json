@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1081c770f6b6c41e",
+        "id": "e7cd35072489c23e",
         "type": "tabs",
         "children": [
           {
-            "id": "d72c9390267ec7b8",
+            "id": "b5837d7fd445223c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "이큐브랩/TEST/Server Test/1. 테스트 준비.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "이큐브랩/TEST/Server Test/1. 테스트 준비.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "이큐브랩/TEST/Server Test/1. 테스트 준비.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "이큐브랩/TEST/Server Test/1. 테스트 준비.md"
+              }
             }
           }
         ]
@@ -139,17 +147,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d72c9390267ec7b8",
+  "active": "b5837d7fd445223c",
   "lastOpenFiles": [
+    "이큐브랩/TEST/Server Test/nGrinder - NetWork Test.md",
+    "이큐브랩/TEST/Server Test/1. 테스트 준비.md",
+    "이큐브랩/TEST/Server Test/0. PDCA.md",
+    "이큐브랩/TEST/Server Test/2. 1구간 TEST.md",
+    "Excalidraw/Drawing 0220.excalidraw.md",
+    "nGrinder란? 설치 및 부하테스트 해보기.md",
     "이큐브랩/React/react/6. State and Lifecycle.md",
     "이큐브랩/React/react/5. Components and Props.md",
     "이큐브랩/React/react/4. Rendering Elements.md",
-    "이큐브랩/React/react/2. React.md",
-    "이큐브랩/React/react/3. JSX.md",
-    "mySQL/7. mySQL JOIN.md",
-    "이큐브랩/React/react/1. HTML & SPA.md",
-    "이큐브랩/Dev_Ops/Docker/2. Docker를 알아보자.md",
-    "mySQL/6. mySQL 통계 응용.md",
-    "mySQL/2. mySQL 기초문법 활용(삽질).md"
+    "이큐브랩/React/react/2. React.md"
   ]
 }
