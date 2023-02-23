@@ -130,3 +130,25 @@ IP는 http://127.0.0.1:8080/agent?  이 주소를 입력하면 확인 할 수 �
 **각 에이전트는 한 컴퓨터에서 리소스를 공유해서 사용하여 테스트 결과에 영향을 미칠수 있어 
 추천 되지는 않는다.**
 ![](https://i.imgur.com/3LvEfyB.png)
+
+
+---
+
+1) 삭제할 openJDK 확인
+
+```bash
+$ cd /Library/Java/JavaVirtualMachines
+$ ls
+```
+
+```bash
+# 아래와 같이 설치되어 있는 openJDK 를 확인할 수 있다.(ex: adoptopenjdk-16.jdk)
+stopleaf@stopleaf JavaVirtualMachines % ls
+adoptopenjdk-16.jdk
+```
+
+2) 삭제
+
+```bash
+$ sudo rm -rf adoptopenjdk-16.jdk
+```
