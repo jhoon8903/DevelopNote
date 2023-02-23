@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "73b8ed4e9a9406f0",
+        "id": "f8e9fed905ea1201",
         "type": "tabs",
         "children": [
           {
-            "id": "e35e918abf0d0325",
+            "id": "ed365dd6aaf0e19f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "이큐브랩/TEST/Server Test/2. 1구간 TEST.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "이큐브랩/TEST/Server Test/2. 1구간 TEST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "이큐브랩/TEST/Server Test/2. 1구간 TEST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "이큐브랩/TEST/Server Test/2. 1구간 TEST.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +139,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e35e918abf0d0325",
+  "active": "ed365dd6aaf0e19f",
   "lastOpenFiles": [
-    "이큐브랩/TEST/Server Test/nGrinder - NetWork Test.md",
     "이큐브랩/TEST/Server Test/2. 1구간 TEST.md",
+    "이큐브랩/TEST/Server Test/nGrinder - NetWork Test.md",
     "이큐브랩/TEST/Server Test/1. 테스트 준비.md",
     "이큐브랩/TEST/Server Test/0. PDCA.md",
     "Excalidraw/Drawing 0220.excalidraw.md",
