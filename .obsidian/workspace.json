@@ -15,6 +15,7 @@
               "state": {
                 "file": "이큐브랩/TEST/Server Test/Naver Cloud postgresql-14 Install (CENTOS 7).md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -161,10 +162,10 @@
   },
   "active": "a42e215b849c73be",
   "lastOpenFiles": [
-    "이큐브랩/TEST/Server Test/Naver Cloud - ubuntu nGrinder Agent Install.md",
-    "이큐브랩/TEST/Server Test/Naver Cloud postgresql-14 Install (CENTOS 7).md",
-    "이큐브랩/TEST/Server Test/nGrinder - NetWork Test.md",
     "이큐브랩/TEST/Server Test/Postgresql HA(이중화 및 고가용성) && auto Failover.md",
+    "이큐브랩/TEST/Server Test/nGrinder - NetWork Test.md",
+    "이큐브랩/TEST/Server Test/Naver Cloud postgresql-14 Install (CENTOS 7).md",
+    "이큐브랩/TEST/Server Test/Naver Cloud - ubuntu nGrinder Agent Install.md",
     "nGrinder란? 설치 및 부하테스트 해보기.md",
     "이큐브랩/TEST/Server Test/2. 구간 TEST.md",
     "이큐브랩/TEST/Server Test/1. 테스트 준비.md",

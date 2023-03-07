@@ -8,11 +8,22 @@ sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-
 ```
 
 ```
-yum install -y centos-release-scl-rh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+centos : yum install -y centos-release-scl-rh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+aws : sudo amazon-linux-extras install -y epel
 ```
 
 ```
 yum install -y postgresql14-server.x86_64 postgresql14-contrib.x86_64 llvm5.0-devel llvm-toolset-7-clang
+aws : sudo amazon-linux-extras install -y postgresql14 
+aws : sudo tee /etc/yum.repos.d/pgdg.repo<<EOF
+> [pgdg14]
+> name=PostgreSQL 14 for RHEL/CentOS 7 - ARM64
+> baseurl=http://download.postgresql.org/pub/repos/yum/14/redhat/rhel-7-aarch64
+> enabled=1
+> gpgcheck=0
+> EOF
+aws : sudo yum makecache
+aws : sudo yum install postgresql14 postgresql14-server
 ```
 
 ```
@@ -27,10 +38,15 @@ $ psql --version
 ```
 $ /usr/pgsql-14/bin/postgresql-14-setup initdb
 > Initializing database ... OK
+
+AWS : sudo /usr/pgsql-14/bin/postgresql-14-setup initdb
+> Initializing database ... OK
 ```
 
 ```
 systemctl enable postgresql-14
+
+AWS : sudo systemctl enable --now postgresql-14
 ```
 
 ```
