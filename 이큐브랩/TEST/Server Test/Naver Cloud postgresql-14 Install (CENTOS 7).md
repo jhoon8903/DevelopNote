@@ -2,16 +2,21 @@
 
 ---
 # CentOS 7.8 기준
+
 ```
-$ sudo subscription-manager register --auto-attach
+sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 ```
 
 ```
-$ yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+yum install -y centos-release-scl-rh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 ```
 
 ```
-$ yum install -y postgresql14-server
+yum install -y postgresql14-server.x86_64 postgresql14-contrib.x86_64 llvm5.0-devel llvm-toolset-7-clang
+```
+
+```
+yum install -y postgresql14-devel 
 ```
 
 ```
@@ -25,19 +30,19 @@ $ /usr/pgsql-14/bin/postgresql-14-setup initdb
 ```
 
 ```
-$ systemctl start postgresql-14
+systemctl enable postgresql-14
 ```
 
 ```
-$ systemctl enable postgresql-14
+sudo systemctl start postgresql-14
 ```
 
 ```
-systemctl status  postgresql-14
+sudo systemctl status postgresql-14
 ```
 
 ![](https://i.imgur.com/b1dvfho.jpg)
-
+////////// 생략
 ```
 sudo -u postgres psql
 ```
@@ -57,9 +62,9 @@ postgres=# create database cai with owner postgres encoding 'UTF8';
 ```
 
 ```
-$ vi /var/lib/pgsql/14/data/postgresql.conf
+$ vim /var/lib/pgsql/14/data/postgresql.conf
 ```
-
+///////// 생략
 아래 명령어 잘 찾아서 수정 '#'은 지워야 함
 ```
 listen_address = '*'
@@ -67,7 +72,7 @@ post = 5432
 ```
 
 ```
-echo "host all all 0.0.0.0/0 md5" >> /var/lib/pgsql/14/data/pg_hba.conf
+echo "host all all 0.0.0.0/0 trust" >> /var/lib/pgsql/14/data/pg_hba.conf
 ```
 
 ```

@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "249cdb4ec74aad42",
+        "id": "63d3f19aafe5ac75",
         "type": "tabs",
         "children": [
           {
-            "id": "fc1cf8866899913e",
+            "id": "a42e215b849c73be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "이큐브랩/TEST/Server Test/Naver Cloud postgresql-14 Install (CENTOS 7).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58ab6c235393cdc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "이큐브랩/TEST/Server Test/Postgresql HA(이중화 및 고가용성) && auto Failover.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,18 +159,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fc1cf8866899913e",
+  "active": "a42e215b849c73be",
   "lastOpenFiles": [
     "이큐브랩/TEST/Server Test/Naver Cloud - ubuntu nGrinder Agent Install.md",
-    "이큐브랩/TEST/Server Test/nGrinder - NetWork Test.md",
     "이큐브랩/TEST/Server Test/Naver Cloud postgresql-14 Install (CENTOS 7).md",
+    "이큐브랩/TEST/Server Test/nGrinder - NetWork Test.md",
+    "이큐브랩/TEST/Server Test/Postgresql HA(이중화 및 고가용성) && auto Failover.md",
+    "nGrinder란? 설치 및 부하테스트 해보기.md",
     "이큐브랩/TEST/Server Test/2. 구간 TEST.md",
     "이큐브랩/TEST/Server Test/1. 테스트 준비.md",
     "Excalidraw/Drawing 0301.excalidraw.md",
     "addedit/Pasted Image 20230301082439_223.png",
     "이큐브랩/TEST/Server Test/0. PDCA.md",
     "Excalidraw/Drawing 0220.excalidraw.md",
-    "nGrinder란? 설치 및 부하테스트 해보기.md",
     "이큐브랩/React/react/6. State and Lifecycle.md",
     "이큐브랩/React/react/5. Components and Props.md",
     "이큐브랩/React/react/4. Rendering Elements.md",
